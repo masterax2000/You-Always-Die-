@@ -1,0 +1,75 @@
+#You always die.py
+ilikepie = 'p'
+d = 'lel'
+o = 'fart'
+lighter = 'NOFIRE'
+while ilikepie == 'p':
+    play = input("Do you want to play a game? y/n ")
+    while play == 'y':
+        while d == 'lel':
+                awnser = input("You are in a forest. A path leads to the east and to the west. Which way do you want to go? e/w/look/quit ")
+                if awnser == 'look':
+                    if lighter == 'DOOD':
+                        print("You see nothing of interest. ")
+                        break
+                    if lighter == 'NOFIRE':
+                        print("You see something shiny in a nearby bush. A ligher! You put it in your pocket. ")
+                        lighter = 'DOOD'
+                        break
+                if awnser == 'quit':
+                    exit()
+                if awnser == 'e':
+                      print ("You walk off the edge of the world and fall forever, as you fall, you slowly starve to death. ")
+                      print ("     You have died!     ")
+                      lighter = 'NOFIRE'
+                      break
+                if awnser == 'w':
+                    o = 'lool'
+                    while o == 'lool':
+                        wat_do = input("You see a potato farm. Burn down the potato farm? y/n/back/quit ")
+                        if wat_do == 'quit':
+                            exit()
+                        if wat_do == 'y':
+                            if lighter == 'NOFIRE':
+                                print("You dont have a lighter! ")
+                                break
+                            if lighter == 'DOOD':
+                                lighter = 'NOFIRE'
+                                print("The farm burns down and the farmer dies, screaming in pain. The farmers son saw you set the fire and shoots you. ")
+                                print("     You have died!     ")
+                                o = 'fart'
+                                break
+                        if wat_do == 'back':
+                            d = 'lel'
+                            o = 'fart'
+                            break
+                        if wat_do == 'n':
+                            frog = 'good'
+                            while frog == 'good':
+                                tatos = input("Do you want to steal some potatos? y/n/back/quit ")
+                                if tatos == 'quit':
+                                    exit()
+                                if tatos == 'back':
+                                    o = 'lool'
+                                    frog = 'bad'
+                                    break
+                                if tatos == 'y':
+                                      print("A farmer shoots you!")
+                                      lighter = 'NOFIRE'
+                                      print("     You have died!     ")
+                                      frog = 'bad'
+                                      o = 'fart'
+                                      break
+                                if tatos == 'n':
+                                    print ("You starve to death! ")
+                                    lighter = 'NOFIRE'
+                                    print ("     You have died!     ")
+                                    frog = 'bad'
+                                    o = 'fart'
+                                    break
+                                else: print("That is not a valid command. ")
+                        else: print("That is not a valid command. ")
+                else: print("That is not a valid command. ")
+    while play == 'n':
+        exit()
+    else: print("That is not a valid command. ")
